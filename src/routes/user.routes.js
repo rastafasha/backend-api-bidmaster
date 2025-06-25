@@ -16,6 +16,6 @@ router.get('/users',   getUsers);
 router.get('/user/:id',  authRequired, getUser);
 
 router.delete('/users/delete/:id',  authRequired, deleteUser );
-router.put('/users/update/:id',  authRequired, updateUser);
+router.put('/user/update/:id',  authRequired, updateUser);
 
 export default router;
